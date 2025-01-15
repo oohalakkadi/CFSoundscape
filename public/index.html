@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AR Soundscape</title>
+
+  <!-- A-Frame Library -->
+  <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+
+  <!-- AR.js for A-Frame -->
+  <script src="https://cdn.jsdelivr.net/gh/jeromeetienne/ar.js/aframe/build/aframe-ar.min.js"></script>
+
+  <!-- Socket.IO Client -->
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+  <a-scene embedded arjs>
+    <!-- Marker for Calibration -->
+    <a-marker preset="custom" type="pattern" url="assets/marker.patt">
+      <!-- Example Trigger Box -->
+      <a-box id="trigger-box" position="3 0.5 4.5" color="blue"></a-box>
+
+      <!-- Spatial Audio Source -->
+      <a-sound
+        src="assets/audio1.mp3"
+        position="3 0 4.5"
+        autoplay="true"
+        loop="true">
+      </a-sound>
+    </a-marker>
+
+    <!-- AR.js Camera -->
+    <a-entity camera></a-entity>
+  </a-scene>
+
+  <!-- Socket.IO Logic -->
+  <script src="client.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "cfsoundscape",
+  "version": "1.0.0",
+  "description": "Soundscape project for COMPDSGN 490 Project 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
