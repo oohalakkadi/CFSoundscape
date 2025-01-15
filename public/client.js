@@ -1,5 +1,5 @@
 // Connect to the Socket.IO server
-const socket = io();
+const socket = io("https://cfsoundscape-backend.onrender.com");
 
 // Select the trigger box
 const triggerBox = document.querySelector("#trigger-box");
