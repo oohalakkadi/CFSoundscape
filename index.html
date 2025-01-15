@@ -32,8 +32,10 @@
   <!-- A-Frame Scene -->
   <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;">
     <!-- Marker -->
-    <a-marker preset="custom" type="pattern" url="https://raw.githack.com/oohalakkadi/CFSoundscape/main/assets/calibrate.patt">
-      <!-- Grid Floor -->
+    <a-marker preset="hiro">
+      <a-box position="0 0.5 0" color="red"></a-box>
+    <!-- <a-marker preset="custom" type="pattern" url="https://raw.githack.com/oohalakkadi/CFSoundscape/main/assets/calibrate.patt"> -->
+      Grid Floor
       <a-plane
         position="3 0 4.5"
         rotation="-90 0 0"
@@ -42,11 +44,12 @@
         color="gray"
         opacity="0.2">
       </a-plane>
+      <a-box position="0 0.5 0" color="red"></a-box>
 
       <!-- Audio Sources -->
-      <a-sound src="assets/audio1.mp3" position="2 0 1.5" autoplay="true" loop="true"></a-sound>
+      <!-- <a-sound src="assets/audio1.mp3" position="2 0 1.5" autoplay="true" loop="true"></a-sound>
       <a-sound src="assets/audio2.mp3" position="3 0 4" autoplay="true" loop="true"></a-sound>
-      <a-sound src="assets/audio3.mp3" position="1 0 8" autoplay="true" loop="true"></a-sound>
+      <a-sound src="assets/audio3.mp3" position="1 0 8" autoplay="true" loop="true"></a-sound> -->
     </a-marker>
 
     <!-- AR.js Camera -->
