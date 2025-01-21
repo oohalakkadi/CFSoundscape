@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "hideFromProjectView": [
+    "package.json",
+    "package-lock.json",
+    "*.d.ts",
+    "/node_modules",
+    ".*"
+  ],
+  "initialFilesOpen": [
+    "/Scene.zcomp"
+  ],
+  "defaultsByFile": {
+    "/Scene.zcomp": {
+      "cameraPosition": [5, 5, 3]
+    }
+  }
+}

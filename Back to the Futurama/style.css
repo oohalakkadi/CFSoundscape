@@ -1,0 +1,16 @@
+/* Transparent black screen */
+.fullscreenOverlay {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+    z-index: 9999; /* Ensure it overlays other content */
+}
+
+/* Simple centered text */
+.centeredText {
+    color: white;
+    font-size: 24px; /* Larger font size for visibility */
+    font-family: Times; /* Professional font */
+    text-align: center;
+}
