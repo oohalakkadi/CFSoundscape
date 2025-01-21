@@ -1,0 +1,1300 @@
+{
+	"animation": {
+		"clips": {
+			"10cd283c4ce54c8893543c77a013bbcf": {
+				"id": "10cd283c4ce54c8893543c77a013bbcf",
+				"length": 0,
+				"lengthType": "auto",
+				"name": "Visible",
+				"order": "a2",
+				"scriptName": "Visible",
+				"tracks": {
+				},
+				"type": "state"
+			},
+			"28af03290b0c4731842338299254be8b": {
+				"id": "28af03290b0c4731842338299254be8b",
+				"length": 1000,
+				"lengthType": "expand",
+				"name": "Timeline_1",
+				"order": "a8",
+				"scriptName": "Timeline_10",
+				"tracks": {
+					"4915a727bd834ac289567454069677f9": {
+						"blend": "overlay",
+						"entityID": "910747f3fe25494b94884e7f71c4d4aa",
+						"id": "4915a727bd834ac289567454069677f9",
+						"keyframes": {
+						},
+						"order": "a0",
+						"property": [
+							"enabled"
+						],
+						"type": "property",
+						"weight": {
+						}
+					},
+					"4de5e67d3c0b49aaa01dec5e92824cad": {
+						"blend": "overlay",
+						"entityID": "eb19feeca0e848baa65c7cbd1753e399",
+						"id": "4de5e67d3c0b49aaa01dec5e92824cad",
+						"keyframes": {
+						},
+						"order": "Zz",
+						"property": [
+							"enabled"
+						],
+						"type": "property",
+						"weight": {
+						}
+					}
+				},
+				"type": "timeline"
+			},
+			"b474239eb82f41b3bb7aa5f5ab7382fe": {
+				"id": "b474239eb82f41b3bb7aa5f5ab7382fe",
+				"length": 0,
+				"lengthType": "auto",
+				"name": "Hidden",
+				"order": "a3",
+				"scriptName": "Hidden",
+				"tracks": {
+				},
+				"type": "state"
+			},
+			"b7cd899576524ad0842f7ac8392a84a9": {
+				"id": "b7cd899576524ad0842f7ac8392a84a9",
+				"length": 0,
+				"lengthType": "auto",
+				"name": "Placement",
+				"order": "a6",
+				"scriptName": "Placement",
+				"tracks": {
+				},
+				"type": "state"
+			},
+			"e22b1377ce1b430db30ee1afdd49dbc0": {
+				"id": "e22b1377ce1b430db30ee1afdd49dbc0",
+				"length": 0,
+				"lengthType": "auto",
+				"name": "Tracking",
+				"order": "a5",
+				"scriptName": "Tracking",
+				"tracks": {
+				},
+				"type": "state"
+			},
+			"f4a001808ae44053a967b27b17fa4b95": {
+				"defaultFadeParameters": {
+				},
+				"id": "f4a001808ae44053a967b27b17fa4b95",
+				"length": 3995,
+				"lengthType": "manual",
+				"name": "Initializing",
+				"order": "a7",
+				"scriptName": "Initializing",
+				"tracks": {
+				},
+				"type": "timeline"
+			}
+		},
+		"curves": {
+		},
+		"layers": {
+		}
+	},
+	"behaviors": {
+		"1685c4183efd4768af6a61ac10326f0f": {
+			"id": "1685c4183efd4768af6a61ac10326f0f",
+			"label": "PlaySound",
+			"parent": {
+				"id": "88ef83727cf347e393ba211e1d112e85",
+				"order": "a0",
+				"scriptName": "PlaySound"
+			},
+			"type": "@zcomponent/core/lib/behaviors/PlaySound#PlaySound"
+		},
+		"f86b338246a448ceaef7d16a34a2421e": {
+			"id": "f86b338246a448ceaef7d16a34a2421e",
+			"label": "PlaySound",
+			"parent": {
+				"id": "933898429e164c52b346802b60f39876",
+				"order": "a0",
+				"scriptName": "PlaySound"
+			},
+			"type": "@zcomponent/core/lib/behaviors/PlaySound#PlaySound"
+		}
+	},
+	"constructorProps": {
+	},
+	"entitiesByLabel": {
+		"022901_central-park-67862.mp3": {
+			"910747f3fe25494b94884e7f71c4d4aa": true
+		},
+		"AudienceWoman.mp3": {
+			"e505c5a8b85e4c12927b3ed39606dd41": true
+		},
+		"Audios": {
+			"eb19feeca0e848baa65c7cbd1753e399": true
+		},
+		"CameraEnvironmentMap": {
+			"8aceca5f56f54ae298054c8773fa5d2e": true
+		},
+		"DefaultCookieConsent": {
+			"0ba8e27369df45ca897731dcb1e39bcf": true
+		},
+		"DefaultLoader": {
+			"52148d8eafe3426085e700e049662c07": true
+		},
+		"Defaults": {
+			"7b6fb4d895774174b5d151eec86b704c": true
+		},
+		"DirectionalLight": {
+			"857f9901b65b42c89a3ff04470d70738": true
+		},
+		"Div": {
+			"1a4398fd451a47f3ac344b0a70b0e6f6": true
+		},
+		"Group": {
+			"root": true
+		},
+		"HTML": {
+			"a9949c335b824e43aa18d470075058d2": true
+		},
+		"ImmersalAnchorGroup": {
+			"cdbd499046634ddba6495035f6872d05": true
+		},
+		"News Report.mp3": {
+			"976e45f74bb1402c9fe290e569282af2": true
+		},
+		"No Roads No Cars.mp3": {
+			"84f5210f68be4b73877340c7770c335a": true
+		},
+		"Protest": {
+			"6bcf188b228d46b08f3a45d10c5c177e": true
+		},
+		"Protest Discussion": {
+			"779fd62520304529be987ce43266a619": true
+		},
+		"Protest-Discussion.mp4": {
+			"a8313aec6e2c449b90d47d1fd1cdf39d": true
+		},
+		"Protest.mp3": {
+			"b5fcf6097c154a64a0052965363ff80f": true
+		},
+		"Robert": {
+			"b9ce194dc4e44b8fa6850a5870a8fa39": true
+		},
+		"Robert.mp3": {
+			"1bef77c522b944bd918aa46a0a8ee3b3": true
+		},
+		"ShadowPlane": {
+			"26855c66e5484b449401ca65edab4860": true
+		},
+		"Song": {
+			"fdb3c5f8930d408d895b2fb0c17b8b4a": true
+		},
+		"SphereTrigger": {
+			"933898429e164c52b346802b60f39876": true
+		},
+		"SphereTrigger 2": {
+			"88ef83727cf347e393ba211e1d112e85": true
+		},
+		"TV": {
+			"3c63e57096ae472c8ba4c9e4b2d83ec3": true
+		},
+		"TV SALESMAN.mp4": {
+			"0ff92016aed64045bfa168c156fe43ff": true
+		},
+		"Travel": {
+			"56f6a04ab76f417babcf9a5368bc07ff": true
+		},
+		"Travel.mp4": {
+			"4393ca9a7c9a415aacbba0da2f23e718": true
+		},
+		"WorldTracker": {
+			"43661c8d3ef04ff19efbafeb72bb229b": true
+		},
+		"WorldTrackingUI": {
+			"73b9420a21f742ec908c3abf9df3f40a": true
+		},
+		"ZapparCamera": {
+			"d056c264c3d345908a1345aeb612ed9d": true
+		},
+		"fullscreenOverlay": {
+			"3e6eac9ceb6842bbb1f071d5ea6d8447": true
+		},
+		"style.css": {
+			"77551d22669745aa992e0376c1b9c360": true
+		}
+	},
+	"entitiesByScriptName": {
+		"AudienceWoman_mp3": {
+			"e505c5a8b85e4c12927b3ed39606dd41": true
+		},
+		"Audios": {
+			"eb19feeca0e848baa65c7cbd1753e399": true
+		},
+		"CameraEnvironmentMap": {
+			"8aceca5f56f54ae298054c8773fa5d2e": true
+		},
+		"DefaultCookieConsent": {
+			"0ba8e27369df45ca897731dcb1e39bcf": true
+		},
+		"DefaultLoader": {
+			"52148d8eafe3426085e700e049662c07": true
+		},
+		"Defaults": {
+			"7b6fb4d895774174b5d151eec86b704c": true
+		},
+		"DirectionalLight": {
+			"857f9901b65b42c89a3ff04470d70738": true
+		},
+		"Div": {
+			"1a4398fd451a47f3ac344b0a70b0e6f6": true
+		},
+		"HTML": {
+			"a9949c335b824e43aa18d470075058d2": true
+		},
+		"ImmersalAnchorGroup": {
+			"cdbd499046634ddba6495035f6872d05": true
+		},
+		"News_Report_mp3": {
+			"976e45f74bb1402c9fe290e569282af2": true
+		},
+		"No_RoadsNoCars_mp3": {
+			"84f5210f68be4b73877340c7770c335a": true
+		},
+		"Protest": {
+			"6bcf188b228d46b08f3a45d10c5c177e": true
+		},
+		"Protest_Discussion": {
+			"779fd62520304529be987ce43266a619": true
+		},
+		"Protest_Discussion_mp30": {
+			"a8313aec6e2c449b90d47d1fd1cdf39d": true
+		},
+		"Protest_mp3": {
+			"b5fcf6097c154a64a0052965363ff80f": true
+		},
+		"Robert": {
+			"b9ce194dc4e44b8fa6850a5870a8fa39": true
+		},
+		"Robert_mp3": {
+			"1bef77c522b944bd918aa46a0a8ee3b3": true
+		},
+		"ShadowPlane": {
+			"26855c66e5484b449401ca65edab4860": true
+		},
+		"Song": {
+			"fdb3c5f8930d408d895b2fb0c17b8b4a": true
+		},
+		"SphereTrigger": {
+			"933898429e164c52b346802b60f39876": true
+		},
+		"SphereTrigger0": {
+			"88ef83727cf347e393ba211e1d112e85": true
+		},
+		"TV": {
+			"3c63e57096ae472c8ba4c9e4b2d83ec3": true
+		},
+		"TV_SALESMAN_mp4": {
+			"0ff92016aed64045bfa168c156fe43ff": true
+		},
+		"Travel": {
+			"56f6a04ab76f417babcf9a5368bc07ff": true
+		},
+		"Travel_mp4": {
+			"4393ca9a7c9a415aacbba0da2f23e718": true
+		},
+		"WorldTracker": {
+			"43661c8d3ef04ff19efbafeb72bb229b": true
+		},
+		"WorldTrackingUI": {
+			"73b9420a21f742ec908c3abf9df3f40a": true
+		},
+		"ZapparCamera": {
+			"d056c264c3d345908a1345aeb612ed9d": true
+		},
+		"fullscreenOverlay": {
+			"3e6eac9ceb6842bbb1f071d5ea6d8447": true
+		},
+		"n022901_central_park67862_mp3": {
+			"910747f3fe25494b94884e7f71c4d4aa": true
+		},
+		"style_css": {
+			"77551d22669745aa992e0376c1b9c360": true
+		}
+	},
+	"entityConstructorProps": {
+		"0ba8e27369df45ca897731dcb1e39bcf": {
+		},
+		"0ff92016aed64045bfa168c156fe43ff": {
+			"autoplay": false,
+			"source": "file://./Audios/TVSALESMAN.mp3"
+		},
+		"1685c4183efd4768af6a61ac10326f0f": {
+			"audioLayer": "",
+			"event": "onCollisionEnter",
+			"runAtEditTime": true,
+			"source": "file://./Audios/AudienceWoman.mp3"
+		},
+		"1a4398fd451a47f3ac344b0a70b0e6f6": {
+		},
+		"1bef77c522b944bd918aa46a0a8ee3b3": {
+			"autoplay": true,
+			"source": "file://./Audios/Robert Personal Car.mp3"
+		},
+		"26855c66e5484b449401ca65edab4860": {
+		},
+		"3c63e57096ae472c8ba4c9e4b2d83ec3": {
+		},
+		"3e6eac9ceb6842bbb1f071d5ea6d8447": {
+		},
+		"43661c8d3ef04ff19efbafeb72bb229b": {
+		},
+		"4393ca9a7c9a415aacbba0da2f23e718": {
+			"autoplay": true,
+			"source": "file://./Audios/Travel.mp3"
+		},
+		"52148d8eafe3426085e700e049662c07": {
+		},
+		"56f6a04ab76f417babcf9a5368bc07ff": {
+		},
+		"6bcf188b228d46b08f3a45d10c5c177e": {
+		},
+		"73b9420a21f742ec908c3abf9df3f40a": {
+		},
+		"77551d22669745aa992e0376c1b9c360": {
+			"source": "file://./style.css"
+		},
+		"779fd62520304529be987ce43266a619": {
+		},
+		"7b6fb4d895774174b5d151eec86b704c": {
+		},
+		"84f5210f68be4b73877340c7770c335a": {
+			"autoplay": true,
+			"source": "file://./Audios/No Roads No Cars.mp3"
+		},
+		"857f9901b65b42c89a3ff04470d70738": {
+		},
+		"88ef83727cf347e393ba211e1d112e85": {
+		},
+		"8aceca5f56f54ae298054c8773fa5d2e": {
+		},
+		"910747f3fe25494b94884e7f71c4d4aa": {
+			"autoplay": true,
+			"source": "file://./Audios/022901_central-park-67862.mp3"
+		},
+		"933898429e164c52b346802b60f39876": {
+		},
+		"976e45f74bb1402c9fe290e569282af2": {
+			"autoplay": true,
+			"source": "file://./Audios/News Report.mp3"
+		},
+		"a8313aec6e2c449b90d47d1fd1cdf39d": {
+			"autoplay": true,
+			"source": "file://./Audios/Protest-Discussion.mp3"
+		},
+		"a9949c335b824e43aa18d470075058d2": {
+		},
+		"b5fcf6097c154a64a0052965363ff80f": {
+			"autoplay": true,
+			"source": "file://./Audios/Protest.mp3"
+		},
+		"b9ce194dc4e44b8fa6850a5870a8fa39": {
+		},
+		"cdbd499046634ddba6495035f6872d05": {
+			"developerToken": "e29bb0531ee6e464272cf9695ba936c29e265730f9928f6c55c08c2e50d63ebf",
+			"mapID": "116887",
+			"showPreviewAtRuntime": false
+		},
+		"d056c264c3d345908a1345aeb612ed9d": {
+			"activateAtStart": true,
+			"profile": "high"
+		},
+		"e505c5a8b85e4c12927b3ed39606dd41": {
+			"autoplay": false,
+			"source": "file://./Audios/AudienceWoman.mp3"
+		},
+		"eb19feeca0e848baa65c7cbd1753e399": {
+		},
+		"f86b338246a448ceaef7d16a34a2421e": {
+			"audioLayer": "",
+			"event": "onCollisionEnter",
+			"runAtEditTime": true,
+			"source": "file://./Audios/AudienceWoman.mp3"
+		},
+		"fdb3c5f8930d408d895b2fb0c17b8b4a": {
+		}
+	},
+	"entityPropOverrides": {
+		"componentprop:prop:root:position": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"position"
+			],
+			"id": "componentprop:prop:root:position",
+			"isConstructorProp": false,
+			"propName": "position",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:rotation": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"rotation"
+			],
+			"id": "componentprop:prop:root:rotation",
+			"isConstructorProp": false,
+			"propName": "rotation",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:scale": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"scale"
+			],
+			"id": "componentprop:prop:root:scale",
+			"isConstructorProp": false,
+			"propName": "scale",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:visible": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"visible"
+			],
+			"id": "componentprop:prop:root:visible",
+			"isConstructorProp": false,
+			"propName": "visible",
+			"type": "componentprop"
+		}
+	},
+	"entityProps": {
+		"0ba8e27369df45ca897731dcb1e39bcf": {
+		},
+		"0ff92016aed64045bfa168c156fe43ff": {
+			"castShadow": false,
+			"enabled": true,
+			"position": [
+				-2.7552720046999215,
+				0.03930028024886311,
+				1.881945175031432
+			],
+			"receiveShadow": false,
+			"rolloffFactor": 8,
+			"rotation": [
+				3.134278579457359,
+				0.020730114427088196,
+				0.00036486951671147865
+			],
+			"visible": false
+		},
+		"1685c4183efd4768af6a61ac10326f0f": {
+			"speed": 0.9,
+			"volume": 1
+		},
+		"1a4398fd451a47f3ac344b0a70b0e6f6": {
+			"classList": [
+				"centeredText"
+			],
+			"id": "",
+			"innerText": "America, today."
+		},
+		"1bef77c522b944bd918aa46a0a8ee3b3": {
+			"castShadow": false,
+			"distanceModel": "inverse",
+			"loop": true,
+			"maxDistance": 1000,
+			"position": [
+				-0.7819775542383591,
+				0,
+				-1.8648821451457285
+			],
+			"receiveShadow": false,
+			"refDistance": 1,
+			"rolloffFactor": 8,
+			"visible": false
+		},
+		"26855c66e5484b449401ca65edab4860": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1.0130759468164008,
+				1
+			]
+		},
+		"3c63e57096ae472c8ba4c9e4b2d83ec3": {
+			"position": [
+				-2.632921402659257,
+				0,
+				2.705692533297923
+			],
+			"scale": [
+				0.1,
+				0.1,
+				0.1
+			]
+		},
+		"3e6eac9ceb6842bbb1f071d5ea6d8447": {
+			"classList": [
+				"fullscreenOverlay"
+			],
+			"height": [
+				100,
+				"vh"
+			],
+			"innerText": "",
+			"width": [
+				100,
+				"vw"
+			]
+		},
+		"43661c8d3ef04ff19efbafeb72bb229b": {
+			"initializedLayerClip": ""
+		},
+		"4393ca9a7c9a415aacbba0da2f23e718": {
+			"castShadow": false,
+			"distanceModel": "inverse",
+			"loop": true,
+			"maxDistance": 1000,
+			"position": [
+				-0.6725521436465596,
+				0,
+				1.2332542548087275
+			],
+			"receiveShadow": false,
+			"refDistance": 1,
+			"rolloffFactor": 8,
+			"rotation": [
+				0,
+				-0.6695414453904647,
+				0
+			],
+			"visible": false
+		},
+		"52148d8eafe3426085e700e049662c07": {
+		},
+		"56f6a04ab76f417babcf9a5368bc07ff": {
+			"position": [
+				-0.6725521436465596,
+				0,
+				1.2332542548087275
+			],
+			"scale": [
+				0.1,
+				0.1,
+				0.1
+			]
+		},
+		"6bcf188b228d46b08f3a45d10c5c177e": {
+			"position": [
+				1.1803515508246987,
+				0,
+				4.425702826771205
+			],
+			"scale": [
+				0.1,
+				0.1,
+				0.1
+			]
+		},
+		"73b9420a21f742ec908c3abf9df3f40a": {
+			"preview": "tracking"
+		},
+		"77551d22669745aa992e0376c1b9c360": {
+		},
+		"779fd62520304529be987ce43266a619": {
+			"position": [
+				-1.904000287599172,
+				0,
+				0.5173643230200675
+			],
+			"scale": [
+				0.1,
+				0.1,
+				0.1
+			]
+		},
+		"7b6fb4d895774174b5d151eec86b704c": {
+		},
+		"84f5210f68be4b73877340c7770c335a": {
+			"castShadow": false,
+			"loop": true,
+			"maxDistance": 30,
+			"position": [
+				0.7324543900643039,
+				0,
+				-2.136591974153744
+			],
+			"receiveShadow": false,
+			"refDistance": 1,
+			"rolloffFactor": 15,
+			"rotation": [
+				0,
+				-6.757540359851247,
+				0
+			],
+			"scale": [
+				0.39418686710120837,
+				0.39418686710120837,
+				0.39418686710120837
+			],
+			"visible": false
+		},
+		"857f9901b65b42c89a3ff04470d70738": {
+			"castShadow": true,
+			"position": [
+				0,
+				3.822578351542651,
+				0
+			]
+		},
+		"88ef83727cf347e393ba211e1d112e85": {
+			"castShadow": false,
+			"isTrigger": true,
+			"position": [
+				0,
+				0,
+				0.06271575802194033
+			],
+			"receiveShadow": false,
+			"scale": [
+				0.38183893652009876,
+				0.38183893652009876,
+				0.38183893652009876
+			],
+			"tags": [
+				"sales"
+			],
+			"visible": false
+		},
+		"8aceca5f56f54ae298054c8773fa5d2e": {
+		},
+		"910747f3fe25494b94884e7f71c4d4aa": {
+			"enabled": true,
+			"loop": true,
+			"muted": false,
+			"volume": 0.267388547458785
+		},
+		"933898429e164c52b346802b60f39876": {
+			"castShadow": false,
+			"isTrigger": true,
+			"position": [
+				0,
+				0,
+				0.06271575802194033
+			],
+			"receiveShadow": false,
+			"scale": [
+				0.38183893652009876,
+				0.38183893652009876,
+				0.38183893652009876
+			],
+			"tags": [
+				"audience"
+			],
+			"visible": false
+		},
+		"976e45f74bb1402c9fe290e569282af2": {
+			"castShadow": false,
+			"loop": true,
+			"position": [
+				-2.632921402659257,
+				0,
+				2.705692533297923
+			],
+			"receiveShadow": false,
+			"rolloffFactor": 18,
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"visible": false
+		},
+		"a8313aec6e2c449b90d47d1fd1cdf39d": {
+			"castShadow": false,
+			"distanceModel": "inverse",
+			"loop": true,
+			"maxDistance": 1000,
+			"position": [
+				-1.904000287599172,
+				0,
+				0.5173643230200675
+			],
+			"receiveShadow": false,
+			"refDistance": 1,
+			"rolloffFactor": 8,
+			"visible": false
+		},
+		"a9949c335b824e43aa18d470075058d2": {
+			"visible": true
+		},
+		"b5fcf6097c154a64a0052965363ff80f": {
+			"castShadow": false,
+			"loop": true,
+			"position": [
+				1.1803515508246987,
+				0,
+				4.425702826771205
+			],
+			"receiveShadow": false,
+			"refDistance": 2,
+			"rolloffFactor": 20,
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"visible": false
+		},
+		"b9ce194dc4e44b8fa6850a5870a8fa39": {
+			"position": [
+				-0.7819775542383591,
+				0,
+				-1.8648821451457285
+			],
+			"scale": [
+				0.1,
+				0.1,
+				0.1
+			]
+		},
+		"cdbd499046634ddba6495035f6872d05": {
+		},
+		"d056c264c3d345908a1345aeb612ed9d": {
+			"tags": [
+				"audience"
+			]
+		},
+		"e505c5a8b85e4c12927b3ed39606dd41": {
+			"castShadow": false,
+			"enabled": true,
+			"position": [
+				0.5189532577491913,
+				0,
+				-1.8250064051042552
+			],
+			"receiveShadow": false,
+			"rolloffFactor": 18,
+			"rotation": [
+				0,
+				-0.020733324741911474,
+				0
+			],
+			"visible": false
+		},
+		"eb19feeca0e848baa65c7cbd1753e399": {
+		},
+		"f86b338246a448ceaef7d16a34a2421e": {
+			"speed": 0.9,
+			"volume": 1
+		},
+		"fdb3c5f8930d408d895b2fb0c17b8b4a": {
+			"position": [
+				0.7324543900643039,
+				0,
+				-2.136591974153744
+			],
+			"scale": [
+				0.1,
+				0.1,
+				0.1
+			]
+		},
+		"root": {
+			"position": [
+				-1.7761028621592283,
+				0,
+				0
+			]
+		}
+	},
+	"id": "5d4513e843574c04847bf1474912090f",
+	"nodes": {
+		"0ba8e27369df45ca897731dcb1e39bcf": {
+			"id": "0ba8e27369df45ca897731dcb1e39bcf",
+			"label": "DefaultCookieConsent",
+			"parent": {
+				"id": "7b6fb4d895774174b5d151eec86b704c",
+				"order": "a4"
+			},
+			"scriptName": "DefaultCookieConsent",
+			"type": "@zcomponent/core/lib/components/DefaultCookieConsent#DefaultCookieConsent"
+		},
+		"0ff92016aed64045bfa168c156fe43ff": {
+			"id": "0ff92016aed64045bfa168c156fe43ff",
+			"label": "TV SALESMAN.mp4",
+			"parent": {
+				"id": "eb19feeca0e848baa65c7cbd1753e399",
+				"order": "ZxV"
+			},
+			"scriptName": "TV_SALESMAN_mp4",
+			"type": "@zcomponent/three/lib/components/PositionalAudio#PositionalAudio"
+		},
+		"1a4398fd451a47f3ac344b0a70b0e6f6": {
+			"id": "1a4398fd451a47f3ac344b0a70b0e6f6",
+			"label": "Div",
+			"parent": {
+				"id": "3e6eac9ceb6842bbb1f071d5ea6d8447",
+				"order": "a0"
+			},
+			"scriptName": "Div",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"1bef77c522b944bd918aa46a0a8ee3b3": {
+			"id": "1bef77c522b944bd918aa46a0a8ee3b3",
+			"label": "Robert.mp3",
+			"parent": {
+				"id": "b9ce194dc4e44b8fa6850a5870a8fa39",
+				"order": "a0"
+			},
+			"scriptName": "Robert_mp3",
+			"type": "@zcomponent/three/lib/components/PositionalAudio#PositionalAudio"
+		},
+		"26855c66e5484b449401ca65edab4860": {
+			"id": "26855c66e5484b449401ca65edab4860",
+			"label": "ShadowPlane",
+			"locked": true,
+			"parent": {
+				"id": "cdbd499046634ddba6495035f6872d05",
+				"order": "a0"
+			},
+			"scriptName": "ShadowPlane",
+			"type": "@zcomponent/three/lib/components/meshes/ShadowPlane#ShadowPlane"
+		},
+		"3c63e57096ae472c8ba4c9e4b2d83ec3": {
+			"id": "3c63e57096ae472c8ba4c9e4b2d83ec3",
+			"label": "TV",
+			"parent": {
+				"id": "eb19feeca0e848baa65c7cbd1753e399",
+				"order": "a3"
+			},
+			"scriptName": "TV",
+			"type": "@zcomponent/three/lib/components/meshes/Sphere#Sphere"
+		},
+		"3e6eac9ceb6842bbb1f071d5ea6d8447": {
+			"id": "3e6eac9ceb6842bbb1f071d5ea6d8447",
+			"label": "fullscreenOverlay",
+			"parent": {
+				"id": "a9949c335b824e43aa18d470075058d2",
+				"order": "a1"
+			},
+			"scriptName": "fullscreenOverlay",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"43661c8d3ef04ff19efbafeb72bb229b": {
+			"id": "43661c8d3ef04ff19efbafeb72bb229b",
+			"label": "WorldTracker",
+			"parent": {
+				"id": "root",
+				"order": "ZX"
+			},
+			"scriptName": "WorldTracker",
+			"type": "@zcomponent/zappar-three/lib/components/trackers/WorldTracker#WorldTracker"
+		},
+		"4393ca9a7c9a415aacbba0da2f23e718": {
+			"id": "4393ca9a7c9a415aacbba0da2f23e718",
+			"label": "Travel.mp4",
+			"parent": {
+				"id": "56f6a04ab76f417babcf9a5368bc07ff",
+				"order": "a0"
+			},
+			"scriptName": "Travel_mp4",
+			"type": "@zcomponent/three/lib/components/PositionalAudio#PositionalAudio"
+		},
+		"52148d8eafe3426085e700e049662c07": {
+			"id": "52148d8eafe3426085e700e049662c07",
+			"label": "DefaultLoader",
+			"parent": {
+				"id": "7b6fb4d895774174b5d151eec86b704c",
+				"order": "Zp"
+			},
+			"scriptName": "DefaultLoader",
+			"type": "@zcomponent/core/lib/components/DefaultLoader#DefaultLoader"
+		},
+		"56f6a04ab76f417babcf9a5368bc07ff": {
+			"id": "56f6a04ab76f417babcf9a5368bc07ff",
+			"label": "Travel",
+			"parent": {
+				"id": "eb19feeca0e848baa65c7cbd1753e399",
+				"order": "a2"
+			},
+			"scriptName": "Travel",
+			"type": "@zcomponent/three/lib/components/meshes/Sphere#Sphere"
+		},
+		"6bcf188b228d46b08f3a45d10c5c177e": {
+			"id": "6bcf188b228d46b08f3a45d10c5c177e",
+			"label": "Protest",
+			"parent": {
+				"id": "eb19feeca0e848baa65c7cbd1753e399",
+				"order": "a1"
+			},
+			"scriptName": "Protest",
+			"type": "@zcomponent/three/lib/components/meshes/Sphere#Sphere"
+		},
+		"73b9420a21f742ec908c3abf9df3f40a": {
+			"id": "73b9420a21f742ec908c3abf9df3f40a",
+			"label": "WorldTrackingUI",
+			"parent": {
+				"id": "43661c8d3ef04ff19efbafeb72bb229b",
+				"order": "a1"
+			},
+			"scriptName": "WorldTrackingUI",
+			"type": "@zcomponent/zappar-three/lib/components/WorldTrackingUI#WorldTrackingUI"
+		},
+		"77551d22669745aa992e0376c1b9c360": {
+			"id": "77551d22669745aa992e0376c1b9c360",
+			"label": "style.css",
+			"parent": {
+				"id": "a9949c335b824e43aa18d470075058d2",
+				"order": "a0"
+			},
+			"scriptName": "style_css",
+			"type": "@zcomponent/html/lib/CSS#CSS"
+		},
+		"779fd62520304529be987ce43266a619": {
+			"id": "779fd62520304529be987ce43266a619",
+			"label": "Protest Discussion",
+			"parent": {
+				"id": "eb19feeca0e848baa65c7cbd1753e399",
+				"order": "a0K"
+			},
+			"scriptName": "Protest_Discussion",
+			"type": "@zcomponent/three/lib/components/meshes/Sphere#Sphere"
+		},
+		"7b6fb4d895774174b5d151eec86b704c": {
+			"id": "7b6fb4d895774174b5d151eec86b704c",
+			"label": "Defaults",
+			"parent": {
+				"id": "root",
+				"order": "a0"
+			},
+			"scriptName": "Defaults",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"84f5210f68be4b73877340c7770c335a": {
+			"id": "84f5210f68be4b73877340c7770c335a",
+			"label": "No Roads No Cars.mp3",
+			"parent": {
+				"id": "fdb3c5f8930d408d895b2fb0c17b8b4a",
+				"order": "a0"
+			},
+			"scriptName": "No_RoadsNoCars_mp3",
+			"type": "@zcomponent/three/lib/components/PositionalAudio#PositionalAudio"
+		},
+		"857f9901b65b42c89a3ff04470d70738": {
+			"id": "857f9901b65b42c89a3ff04470d70738",
+			"label": "DirectionalLight",
+			"parent": {
+				"id": "cdbd499046634ddba6495035f6872d05",
+				"order": "a1"
+			},
+			"scriptName": "DirectionalLight",
+			"type": "@zcomponent/three/lib/components/lights/DirectionalLight#DirectionalLight"
+		},
+		"88ef83727cf347e393ba211e1d112e85": {
+			"id": "88ef83727cf347e393ba211e1d112e85",
+			"label": "SphereTrigger 2",
+			"parent": {
+				"id": "0ff92016aed64045bfa168c156fe43ff",
+				"order": "a0"
+			},
+			"scriptName": "SphereTrigger0",
+			"type": "@zcomponent/three/lib/components/physics/triggers/SphereTrigger#SphereTrigger"
+		},
+		"8aceca5f56f54ae298054c8773fa5d2e": {
+			"id": "8aceca5f56f54ae298054c8773fa5d2e",
+			"label": "CameraEnvironmentMap",
+			"parent": {
+				"id": "root",
+				"order": "a5"
+			},
+			"scriptName": "CameraEnvironmentMap",
+			"type": "@zcomponent/zappar-three/lib/components/environments/CameraEnvironmentMap#CameraEnvironmentMap"
+		},
+		"910747f3fe25494b94884e7f71c4d4aa": {
+			"id": "910747f3fe25494b94884e7f71c4d4aa",
+			"label": "022901_central-park-67862.mp3",
+			"parent": {
+				"id": "eb19feeca0e848baa65c7cbd1753e399",
+				"order": "Zv"
+			},
+			"scriptName": "n022901_central_park67862_mp3",
+			"type": "@zcomponent/core/lib/components/Audio#Audio"
+		},
+		"933898429e164c52b346802b60f39876": {
+			"id": "933898429e164c52b346802b60f39876",
+			"label": "SphereTrigger",
+			"parent": {
+				"id": "e505c5a8b85e4c12927b3ed39606dd41",
+				"order": "a0"
+			},
+			"scriptName": "SphereTrigger",
+			"type": "@zcomponent/three/lib/components/physics/triggers/SphereTrigger#SphereTrigger"
+		},
+		"976e45f74bb1402c9fe290e569282af2": {
+			"id": "976e45f74bb1402c9fe290e569282af2",
+			"label": "News Report.mp3",
+			"parent": {
+				"id": "3c63e57096ae472c8ba4c9e4b2d83ec3",
+				"order": "a0"
+			},
+			"scriptName": "News_Report_mp3",
+			"type": "@zcomponent/three/lib/components/PositionalAudio#PositionalAudio"
+		},
+		"a8313aec6e2c449b90d47d1fd1cdf39d": {
+			"id": "a8313aec6e2c449b90d47d1fd1cdf39d",
+			"label": "Protest-Discussion.mp4",
+			"parent": {
+				"id": "779fd62520304529be987ce43266a619",
+				"order": "a0"
+			},
+			"scriptName": "Protest_Discussion_mp30",
+			"type": "@zcomponent/three/lib/components/PositionalAudio#PositionalAudio"
+		},
+		"a9949c335b824e43aa18d470075058d2": {
+			"id": "a9949c335b824e43aa18d470075058d2",
+			"label": "HTML",
+			"parent": {
+				"id": "root",
+				"order": "a6"
+			},
+			"scriptName": "HTML",
+			"type": "@zcomponent/three/lib/components/HTML#HTML"
+		},
+		"b5fcf6097c154a64a0052965363ff80f": {
+			"id": "b5fcf6097c154a64a0052965363ff80f",
+			"label": "Protest.mp3",
+			"parent": {
+				"id": "6bcf188b228d46b08f3a45d10c5c177e",
+				"order": "a0"
+			},
+			"scriptName": "Protest_mp3",
+			"type": "@zcomponent/three/lib/components/PositionalAudio#PositionalAudio"
+		},
+		"b9ce194dc4e44b8fa6850a5870a8fa39": {
+			"id": "b9ce194dc4e44b8fa6850a5870a8fa39",
+			"label": "Robert",
+			"parent": {
+				"id": "eb19feeca0e848baa65c7cbd1753e399",
+				"order": "a1V"
+			},
+			"scriptName": "Robert",
+			"type": "@zcomponent/three/lib/components/meshes/Sphere#Sphere"
+		},
+		"cdbd499046634ddba6495035f6872d05": {
+			"id": "cdbd499046634ddba6495035f6872d05",
+			"label": "ImmersalAnchorGroup",
+			"parent": {
+				"id": "43661c8d3ef04ff19efbafeb72bb229b",
+				"order": "Zy"
+			},
+			"scriptName": "ImmersalAnchorGroup",
+			"type": "@zcomponent/immersal/lib/components/ImmersalAnchorGroup#ImmersalAnchorGroup"
+		},
+		"d056c264c3d345908a1345aeb612ed9d": {
+			"id": "d056c264c3d345908a1345aeb612ed9d",
+			"label": "ZapparCamera",
+			"parent": {
+				"id": "root",
+				"order": "ZW"
+			},
+			"scriptName": "ZapparCamera",
+			"type": "@zcomponent/zappar-three/lib/components/cameras/Camera#ZapparCamera"
+		},
+		"e505c5a8b85e4c12927b3ed39606dd41": {
+			"id": "e505c5a8b85e4c12927b3ed39606dd41",
+			"label": "AudienceWoman.mp3",
+			"parent": {
+				"id": "eb19feeca0e848baa65c7cbd1753e399",
+				"order": "Zx"
+			},
+			"scriptName": "AudienceWoman_mp3",
+			"type": "@zcomponent/three/lib/components/PositionalAudio#PositionalAudio"
+		},
+		"eb19feeca0e848baa65c7cbd1753e399": {
+			"id": "eb19feeca0e848baa65c7cbd1753e399",
+			"label": "Audios",
+			"parent": {
+				"id": "root",
+				"order": "a0V"
+			},
+			"scriptName": "Audios",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"fdb3c5f8930d408d895b2fb0c17b8b4a": {
+			"id": "fdb3c5f8930d408d895b2fb0c17b8b4a",
+			"label": "Song",
+			"parent": {
+				"id": "eb19feeca0e848baa65c7cbd1753e399",
+				"order": "a2V"
+			},
+			"scriptName": "Song",
+			"type": "@zcomponent/three/lib/components/meshes/Sphere#Sphere"
+		},
+		"root": {
+			"id": "root",
+			"label": "Group",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		}
+	},
+	"preview": "@zcomponent/three/lib/preview#default",
+	"propEntityOverrides": {
+		"position": {
+			"root": {
+				"position": true
+			}
+		}
+	},
+	"props": {
+		"position": {
+			"comments": [
+				"The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "position",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"rotation": {
+			"comments": [
+				"The rotation, in three dimensions, of this node relative to its parent. The three elements of the array correspond to Euler angles - yaw, pitch and roll."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "rotation",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"scale": {
+			"comments": [
+				"The scale, in three dimensions, of this node relative to its parent. The three elements of the array correspond to scales in the the `x`, `y`, and `z` axis."
+			],
+			"default": [
+				1,
+				1,
+				1
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "scale",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"visible": {
+			"comments": [
+				"Determines if this object and its children are rendered to the screen."
+			],
+			"default": true,
+			"group": "Appearance",
+			"groupPriority": 11,
+			"name": "visible",
+			"type": {
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "boolean"
+			}
+		}
+	},
+	"root": "root"
+}
