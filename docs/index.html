@@ -1,40 +1,171 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | SoundscapeMapped</title>
-  </head>
-  <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/docs.loader.js"></script>
-    <script>
-      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-        // Mobile device style: fill the whole browser client area with the game canvas:
-        var meta = document.createElement('meta');
-        meta.name = 'viewport';
-        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
-        document.getElementsByTagName('head')[0].appendChild(meta);
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Back to the Futurama</title>
 
-        var canvas = document.querySelector("#unity-canvas");
-        canvas.style.width = "100%";
-        canvas.style.height = "100%";
-        canvas.style.position = "fixed";
+  <!-- CSS for Fonts and Layout -->
+  <style>
+    /* Import Custom Fonts */
+    @font-face {
+      font-family: 'TTChocolates';
+      src: url('./fonts/TT Chocolates Trial Bold.otf') format('opentype');
+      font-weight: bold;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'TTChocolatesRegular';
+      src: url('./fonts/TT Chocolates Trial Regular.otf') format('opentype');
+      font-weight: normal;
+      font-style: normal;
+    }
 
-        document.body.style.textAlign = "left";
-      }
+    /* Base Styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'TTChocolatesRegular', sans-serif;
+      color: #333;
+      background: #f9f9f9;
+      line-height: 1.6;
+    }
 
-      createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/docs.data",
-        frameworkUrl: "Build/docs.framework.js",
-        codeUrl: "Build/docs.wasm",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "SoundscapeMapped",
-        productVersion: "0.1",
-        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
-        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
-      });
-    </script>
-  </body>
+    h1, h2 {
+      font-family: 'TTChocolates', sans-serif;
+      font-weight: bold;
+      margin: 0.5em 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    h1 small {
+      display: block;
+      font-family: 'TTChocolatesRegular', sans-serif;
+      font-size: 1.2rem;
+      margin-top: 0.5em;
+      color: #555;
+    }
+
+    h2 {
+      margin-top: 1.5em;
+      font-size: 1.8rem;
+      text-align: left;
+    }
+
+    p {
+      margin: 1em auto;
+      max-width: 800px;
+      line-height: 1.8;
+      text-align: justify;
+    }
+
+    em {
+      font-style: italic;
+      display: block;
+      color: #666;
+      margin-top: 1em;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 2em;
+    }
+
+    li {
+      margin: 0.5em 0;
+    }
+
+    /* Layout */
+    .container {
+      padding: 2em;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .unity-container {
+      margin: 2em 0;
+      background: #231F20;
+      padding: 1em;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    canvas {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+    }
+
+    footer {
+      margin-top: 3em;
+      font-size: 0.9em;
+      color: #999;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <h1>
+      Back to the Futurama
+      <small>an alternate reality experience</small>
+    </h1>
+
+    <!-- First Block -->
+    <p>
+      For this project, we reimagine a world where the 1939 New York World's Fair Futurama Exhibit was received differently by the American public. Instead of embracing the idea of a car-dependent society, people rejected it as dangerous and regressive. The public saw the model and feared the consequences of the Futurama scenario, including but not limited to air pollution, the loss of green spaces, increased traffic fatalities, sedentary lifestyles, urban sprawl, the erosion of community, and economic displacement. The legacy of the fair became a cautionary tale, remembered as a misguided step toward a harmful vision of the future.
+    </p>
+
+    <!-- Unity WebGL Canvas -->
+    <div class="unity-container">
+      <canvas id="unity-canvas"></canvas>
+      <script src="Build/docs.loader.js"></script>
+      <script>
+        createUnityInstance(document.querySelector("#unity-canvas"), {
+          dataUrl: "Build/docs.data",
+          frameworkUrl: "Build/docs.framework.js",
+          codeUrl: "Build/docs.wasm",
+        });
+      </script>
+    </div>
+
+    <!-- Second Block -->
+    <p>
+      Above is the original Unity build of our app for native mobile devices, remapped for PC. It features a futuristic augmented layer of a parallel American town square, similar to one you would see in reality. As users traverse the space, they explore the sounds that make up this alternate reality — the music, the movements, the day-to-day conversation. The audio sources are represented by white spheres as visual cues.
+    </p>
+
+    <h2>Some experiences you can expect to find:</h2>
+    <ul>
+      <li>A fired-up protest in support of a car-centric society</li>
+      <li>A musician trying to make a quick dollar</li>
+      <li>A TV store promoting the latest model, with the news playing in the window</li>
+      <li>Little conversations and anecdotes scattered throughout</li>
+    </ul>
+    <p>
+      Some "characters" can even see your corporeal form, and will try to interact. Don't be alarmed — we're all friendly here. Headphones are recommended.
+    </p>
+
+    <!-- GLB Section -->
+    <div class="unity-container">
+      <!-- Example GLB Viewer -->
+      <model-viewer src="path/to/your_model.glb" alt="3D Model" auto-rotate camera-controls></model-viewer>
+      <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    </div>
+
+    <!-- Final Block -->
+    <p>
+      In class, we presented an AR build of just the audio soundscape, mapped to the poly-count mesh of our campus art lab built from a corpus of hundreds of photos. Using mobile photogrammetry for VPS and Zappar for WebAR, we demoed an interactive experience augmenting the plaza into our very classroom. However, we faced significant limitations in VPS localization on WebAR, as well as being unable to port any visual elements.
+    </p>
+
+    <!-- Footer -->
+    <footer>
+      <p>Built by Ooha Reddy. Conceptualized by Natalie Aramendia and Soumya Lahoti.</p>
+    </footer>
+  </div>
+</body>
 </html>
