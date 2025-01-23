@@ -86,18 +86,29 @@
       margin: 0 auto;
     }
 
-    .unity-container {
-      margin: 2em 0;
-      background: #231F20;
-      padding: 1em;
-      border-radius: 8px;
-      text-align: center;
-    }
 
     canvas {
       width: 100%;
       max-width: 800px;
       height: auto;
+    }
+
+    .controls {
+      display: flex;
+      justify-content: center;
+      gap: 1.5em;
+      margin: 1em auto;
+      text-align: center;
+      font-family: 'TTChocolates', sans-serif;
+    }
+
+    .controls div {
+      display: inline-block;
+      font-size: 1rem;
+      color: #fff;
+      background: #333;
+      padding: 0.5em 1em;
+      border-radius: 5px;
     }
 
     footer {
@@ -122,16 +133,52 @@
     </p>
 
     <!-- Unity WebGL Canvas -->
-    <div class="unity-container">
-      <canvas id="unity-canvas"></canvas>
-      <script src="Build/docs.loader.js"></script>
-      <script>
-        createUnityInstance(document.querySelector("#unity-canvas"), {
-          dataUrl: "Build/docs.data",
-          frameworkUrl: "Build/docs.framework.js",
-          codeUrl: "Build/docs.wasm",
-        });
-      </script>
+    <html lang="en-us">
+      <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Unity WebGL Player | SoundscapeMapped</title>
+      </head>
+      <body style="text-align: center; padding: 0; border: 0; margin: 0;">
+        <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="width: 960px; height: 600px; background: #231F20"></canvas>
+        <script src="Build/docs.loader.js"></script>
+        <script>
+          if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+            // Mobile device style: fill the whole browser client area with the game canvas:
+            var meta = document.createElement('meta');
+            meta.name = 'viewport';
+            meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+            document.getElementsByTagName('head')[0].appendChild(meta);
+    
+            var canvas = document.querySelector("#unity-canvas");
+            canvas.style.width = "100%";
+            canvas.style.height = "100%";
+            canvas.style.position = "fixed";
+    
+            document.body.style.textAlign = "left";
+          }
+    
+          createUnityInstance(document.querySelector("#unity-canvas"), {
+            dataUrl: "Build/docs.data",
+            frameworkUrl: "Build/docs.framework.js",
+            codeUrl: "Build/docs.wasm",
+            streamingAssetsUrl: "StreamingAssets",
+            companyName: "DefaultCompany",
+            productName: "SoundscapeMapped",
+            productVersion: "0.1",
+            // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+            // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+          });
+        </script>
+      </body>
+    </html>
+
+    <!-- Horizontal Controls Section -->
+    <div class="controls">
+      <div><strong>W/A/S/D:</strong> Move</div>
+      <div><strong>Mouse:</strong> Look Around</div>
+      <div><strong>Space:</strong> Jump</div>
+      <div><strong>Esc:</strong> Pause</div>
     </div>
 
     <!-- Second Block -->
@@ -153,7 +200,7 @@
     <!-- GLB Section -->
     <div class="unity-container">
       <!-- Example GLB Viewer -->
-      <model-viewer src="path/to/your_model.glb" alt="3D Model" auto-rotate camera-controls></model-viewer>
+      <model-viewer src="docs/uploads_files_5781626_POLYGON+Mini.glb" alt="3D Model" auto-rotate camera-controls></model-viewer>
       <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     </div>
 
